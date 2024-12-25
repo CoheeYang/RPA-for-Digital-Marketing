@@ -1,0 +1,116 @@
+{
+    "name": "私域宝",
+    "main": "main.js",
+    "ignore": [
+        "build"
+    ],
+    "packageName": "xyz.siyubao.test",
+    "versionName": "1.0.0",
+    "versionCode": 1,
+    "scripts": {},
+    "signingConfig": {
+        "alias": "",
+        "keystore": "",
+        "uuid": ""
+    },
+    "useFeatures": [],
+    "permissionConfig": {
+        "manifestPermissions": [
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.INTERNET",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECORD_AUDIO",
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SETTINGS",
+            "com.android.alarm.permission.SET_ALARM",
+            "moe.shizuku.manager.permission.API_V23",
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.QUERY_ALL_PACKAGES",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "android.permission.WRITE_SECURE_SETTINGS"
+        ],
+        "requestListOnStartup": [
+            "android.permission.ACCESS_FINE_LOCATION",
+            "android.permission.ACCESS_NETWORK_STATE",
+            "android.permission.ACCESS_WIFI_STATE",
+            "android.permission.FOREGROUND_SERVICE",
+            "android.permission.INTERNET",
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            "android.permission.PACKAGE_USAGE_STATS",
+            "android.permission.QUERY_ALL_PACKAGES",
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.READ_PHONE_STATE",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "android.permission.RECORD_AUDIO",
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            "android.permission.VIBRATE",
+            "android.permission.WAKE_LOCK",
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            "android.permission.WRITE_SECURE_SETTINGS",
+            "android.permission.WRITE_SETTINGS",
+            "com.android.alarm.permission.SET_ALARM",
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+            "moe.shizuku.manager.permission.API_V23"
+        ]
+    },
+    "plugins": {},
+    "publish": {
+        "category": "实用工具",
+        "details": "在线开发",
+        "maxAutoJsVersion": 0,
+        "maxProVersion": 0,
+        "minAutoJsVersion": 0,
+        "minProVersion": 0,
+        "minSdkVersion": 0,
+        "permissions": [],
+        "summary": "解放双手",
+        "tags": []
+    },
+    "optimization": {
+        "obfuscateComponents": true,
+        "removeAccessibilityService": false,
+        "removeOpenCv": false,
+        "unusedResources": false
+    },
+    "launchConfig": {
+        "displaySplash": false,
+        "hideLogs": false,
+        "splashIcon": "images/ic_splash.png",
+        "splashText": "私域宝测试中",
+        "stableMode": false
+    },
+    "icon": "images/SY_LOGO.png",
+    "features": {
+        "activityIntentTasks": true,
+        "builtInOCR": "with-models",
+        "nodejs": "enabled"
+    },
+    "encryptLevel": 0,
+    "build": {
+        "build_id": "7E3C479C-165",
+        "build_number": 165,
+        "build_time": 1702534440338,
+        "release": false
+    },
+    "assets": [],
+    "abis": [
+        "arm64-v8a",
+        "armeabi-v7a"
+    ]
+}
